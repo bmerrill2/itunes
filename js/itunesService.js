@@ -25,7 +25,7 @@ app.service('itunesService', function ($http, $q) {
           Collection: result[i].collectionName,
           CollectionPrice:'$' + result[i].collectionPrice,
           Play: result[i].previewUrl,
-          Type: result[i].kind,
+          Name: result[i].trackName,
         };
         organizeData.push(artistObject);
       };

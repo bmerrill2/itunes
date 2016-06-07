@@ -12,6 +12,8 @@ html, body {
 
 .ngTopPanel {
   line-height: 25px;
+  background-color: #893FD8;
+  color: white;
 }
 
 .ngCell  {
@@ -37,6 +39,3 @@ html, body {
   margin-top: 10px;
 }
 
-.container {
-  background-color: purple;
-}
